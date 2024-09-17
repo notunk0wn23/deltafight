@@ -1,4 +1,8 @@
-PlayerModule = {}
+local PlayerModule = {}
+
+function PlayerModule:Update()
+
+end
 
 function PlayerModule.new()
     local player = setmetatable({}, PlayerModule)
